@@ -1,0 +1,27 @@
+{
+  "name": "dolan-docs",
+  "private": true,
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@so1ve/eslint-config": "^0.32.1",
+    "eslint": "^8.28.0",
+    "typescript": "^4.9.3",
+    "vitepress": "1.0.0-alpha.29",
+    "vue": "^3.2.45"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search"
+      ]
+    }
+  }
+}
