@@ -23,7 +23,8 @@ export default defineConfig({
       {
         text: "Deploy",
         items: [
-          { text: "Get started", link: "/deploy/get-started" },
+          { text: "Get started / Server", link: "/deploy/server" },
+          { text: "Admin", link: "/deploy/admin" },
         ],
       },
     ],
