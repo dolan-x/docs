@@ -30,7 +30,7 @@ jobs:
         run: nci
 
       - name: Build
-        run: nr docs:build
+        run: nr build
 
       - uses: amondnet/vercel-action@v20
         with:
