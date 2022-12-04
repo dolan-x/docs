@@ -32,9 +32,11 @@ jobs:
       - name: Build
         run: nr docs:build
 
-      - name: Deploy to Deno Deploy
-        uses: denoland/deployctl@v1
+      - uses: amondnet/vercel-action@v20
         with:
-          project: dolan-docs
-          entrypoint: https://deno.land/std/http/file_server.ts
-          root: docs/.vitepress/dist
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          vercel-args: '--prod'
+          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
+          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
+          working-directory: ./
