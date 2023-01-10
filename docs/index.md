@@ -23,4 +23,7 @@ features:
   - icon: 🖖
     title: Multi-Frontend
     details: Build you own frontend by using our API
+  - icon: 🤖
+    title: Discuss
+    details: "Join our QQ group: 721146390"
 ---

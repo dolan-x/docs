@@ -12,10 +12,10 @@
     "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
-    "@so1ve/eslint-config": "^0.32.1",
-    "eslint": "^8.28.0",
-    "typescript": "^4.9.3",
-    "vitepress": "1.0.0-alpha.29",
+    "@so1ve/eslint-config": "^0.40.0",
+    "eslint": "^8.31.0",
+    "typescript": "^4.9.4",
+    "vitepress": "1.0.0-alpha.35",
     "vue": "^3.2.45"
   },
   "pnpm": {
