@@ -6,25 +6,25 @@ Click this button.
 
 Enter a name for your project.
 
-![](../assets/steps/admin/1.png)
+![](../../assets/steps/admin/1.png)
 
 Click "Create".
 
-![](../assets/steps/admin/2.png)
+![](../../assets/steps/admin/2.png)
 
 After deployed, click "Continue to Dashboard".
 
 Click "Settings".
 
-![](../assets/steps/admin/3.png)
+![](../../assets/steps/admin/3.png)
 
 Click "Environment Variables".
 
-![](../assets/steps/admin/4.png)
+![](../../assets/steps/admin/4.png)
 
 Add a new env variable named `VITE_DOLAN_API_URL` and input the API URL of your Dolan server.
 
-![](../assets/steps/admin/5.png)
+![](../../assets/steps/admin/5.png)
 
 Click "Save".
 
@@ -32,4 +32,4 @@ Click "Deployments", and select the latest deployment.
 
 Click "Redeploy".
 
-![](../assets/steps/admin/6.png)
+![](../../assets/steps/admin/6.png)

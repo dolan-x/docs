@@ -18,19 +18,19 @@ Then, go to [Deno Deploy](https://dash.deno.com/new) and create a new project.
 
 Select the forked repository:
 
-![](../assets/steps/server/1.png)
+![](../../assets/steps/server/1.png)
 
 Then, select the branch:
 
-![](../assets/steps/server/2.png)
+![](../../assets/steps/server/2.png)
 
 Then, select the deploy method:
 
-![](../assets/steps/server/3.png)
+![](../../assets/steps/server/3.png)
 
 Then, select the file:
 
-![](../assets/steps/server/4.png)
+![](../../assets/steps/server/4.png)
 
 Click "Add Env Variable".
 
@@ -38,7 +38,7 @@ Visit <https://jwt-keygen.deno.dev> and copy the result.
 
 Add a new env variable named `JWT_KEY` and paste the result.
 
-![](../assets/steps/server/5.png)
+![](../../assets/steps/server/5.png)
 
 Add a new env variable named `STORAGE_TYPE` and input `deta`.
 
